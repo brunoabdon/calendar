@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+      "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Calend&aacute;rio</title>
+<script type="text/javascript" src="cal.js"></script>
+<script type="text/javascript" src="domUtil.js"></script>
+<link rel="stylesheet" type="text/css" href="cal.css">
+</head>
+<body onload="init();">
+
+<table id="monthCalendar" cellspacing="4">
+  <colgroup span="1" width="16">
+  <colgroup span="6" width="14">
+    
+  <thead>
+
+     <tr id="linksBar">
+         <td colspan="2"><a href="javascript:previousMonth()" id="previousMonthLink">Previous Month</a>
+         <td colspan="3"><a href="javascript:hoje()" id="hojeLink">Hoje</a>
+         <td colspan="2"><a href="javascript:nextMonth()" id="nextMonthLink">Next Month</a>
+
+
+     <tr>
+        <th id="monthNameCell" colspan="7"></th>
+     <tr id="weekDays">
+         <th>Domingo
+         <th>Segunda
+         <th>Ter&ccedil;a
+         <th>Quarta
+         <th>Quinta
+         <th>Sexta
+         <th>S&aacute;bado
+  </thead>
+
+  <tbody>
+     <tr><td><td><td><td><td><td><td>
+     <tr><td><td><td><td><td><td><td>
+     <tr><td><td><td><td><td><td><td>
+     <tr><td><td><td><td><td><td><td>
+     <tr><td><td><td><td><td><td><td>
+     <tr><td><td><td><td><td><td><td>
+  </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+   /* font */
+   font-size: 18pt;
+}
+body * {
+   /* font */
+   font-size: inherit;
+}
+
+
+#monthCalendar{
+    /* borders */
+    border-style: none;
+    border-collapse:separate;
+}
+
+
+#monthCalendar tbody td{
+   /* colors */
+   background-color:white;
+   color:#FF8000;
+   
+   /* font */
+   font-family: Sans-Serif;
+   font-size: 1em;
+   font-weight:bolder;
+   
+   /* position & alignment */
+   text-align:center;
+   vertical-align:middle;
+   
+   /* borders */
+   border: 1px solid #0000aa;
+   
+   /* lengths */
+   height: 1.4em;
+   width:  4em;
+}
+
+#monthCalendar tbody tr > td:first-child{
+   /* colors */
+   background-color:#00a;
+   color:white;
+
+}
+#monthCalendar tbody tr > td.today{
+
+   /* colors */
+   background-color:#FEE;
+   color:#F00;
+
+   /* borders */
+   border-color: #ff0000;
+}
+
+#monthCalendar tbody tr > td.today:first-child{
+   /* colors */
+   background-color: white;
+   color:#f00;
+}
+
+
+#monthCalendar tbody td:hover{
+   /* colors */
+   background-color:#eef;
+   color:#F50;
+
+}
+
+
+#weekDays th{
+   /* colors */
+   background-color:white;
+   color:#0000aa;
+ 
+   /* font */
+   font-family: Sans-Serif;
+   font-size: 0.5em;
+   font-weight:bold;
+ 
+  /* margin - padding */
+   padding: 1em;
+   
+}
+
+#monthNameCell{
+   /* colors */
+   background-color:white;
+   color:#0000aa;
+
+   /* font */
+   font-family: Sans-Serif;
+   font-size: 1.5em;
+   font-weight:bold;
+   
+   /* margin - padding */
+   padding: 0.5em;
+
+}
+
+
+#linksBar td{
+
+   /* font */
+   font-family: Sans-Serif;
+   font-size: 0.5em;
+
+   /* margin - padding */
+   padding: 0.5em;
+
+   /* position & alignment */
+   text-align:center;
+   vertical-align:middle;
+
+    /* widths & heights*/
+    min-height:3em;
+
+}
